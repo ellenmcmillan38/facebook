@@ -10,7 +10,9 @@ import UIKit
 
 class HotlineViewController: UIViewController {
     
-    let buttons = ["National Hotline" : "1-800-273-8255", "YouthLine" : "877-968-8491", "Veterans" : "1-800-273-8255", "Child Abuse" : "800-422-4453", "Domestic Abuse" : "800-799-7233", "Rape" : "800-656-4673", "Eating Disorder" : "800-931-2237", "Runaway" : "800-RUN-AWAY", "Poison Control" : "800-222-1222", "HopeLine" : "1-877-235-4525", "LGBTQ+" : "866-488-7386", "Drugs/Alcohol" : "800-662-4357"]
+
+
+    let buttons = ["National Lifeline" : "1-800-273-8255", "YouthLine" : "877-968-8491 or text teen2teen to 839863", "Veterans" : "1-800-273-8255", "Child Abuse" : "800-422-4453", "Domestic Abuse" : "800-799-7233", "Rape" : "800-656-4673", "Eating Disorder" : "800-931-2237", "Runaway" : "800-RUN-AWAY", "Poison Control" : "800-222-1222", "HopeLine" : "1-877-235-4525", "LGBTQ+" : "866-488-7386", "Drugs/Alcohol" : "800-662-4357"]
     
     
     @IBAction func showMessage(sender: UIButton){

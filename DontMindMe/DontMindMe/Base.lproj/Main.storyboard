@@ -30,7 +30,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="📞"/>
                                 <connections>
-                                    <segue destination="30b-AR-AjL" kind="show" id="BVs-Yd-7u9"/>
+                                    <segue destination="30b-AR-AjL" kind="show" id="czG-gM-Mfc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5P-vp-LxA">
@@ -39,7 +39,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="⭐️"/>
                                 <connections>
-                                    <segue destination="kXx-e2-1we" kind="show" id="XVE-0O-KPe"/>
+                                    <segue destination="kXx-e2-1we" kind="show" id="yJ1-P9-Ydf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fj-2t-RnL">
@@ -48,19 +48,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                 <state key="normal" title="🎵"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6c4-pV-ezU">
-                                <rect key="frame" x="17" y="164" width="377" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Yl-R0-PsO">
-                                <rect key="frame" x="324" y="835" width="51" height="35"/>
+                                <rect key="frame" x="324" y="835" width="51" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="⏰"/>
                                 <connections>
-                                    <segue destination="l79-Ly-wy1" kind="show" id="8M6-sR-Psy"/>
+                                    <segue destination="bSm-kn-xiQ" kind="show" id="TUs-Wa-wrZ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6c4-pV-ezU">
+                                <rect key="frame" x="17" y="164" width="377" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.9252745509147644" green="0.86453348398208618" blue="0.99114638566970825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -73,7 +73,6 @@
         <!--Title-->
         <scene sceneID="joC-g4-mMZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ALJ-k3-mbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="30b-AR-AjL" customClass="HotlineViewController" customModule="DontMindMe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8mz-WN-kps">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -96,7 +95,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="⭐️"/>
                                 <connections>
-                                    <segue destination="kXx-e2-1we" kind="show" id="AN9-MN-Tml"/>
+                                    <segue destination="kXx-e2-1we" kind="show" id="s8k-sg-kex"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jib-xX-Gou">
@@ -105,7 +104,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="⏰"/>
                                 <connections>
-                                    <segue destination="l79-Ly-wy1" kind="show" id="JN5-lB-eEK"/>
+                                    <segue destination="bSm-kn-xiQ" kind="show" id="Td8-LX-Qc5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9v-q3-zCN">
@@ -114,7 +113,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="🏠"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="2hs-TX-Iwz"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="F1Z-PW-628"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F9A-ZT-7E7">
@@ -130,7 +129,7 @@
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <state key="normal" title="National Lifeline"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="qXl-1k-AiI"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="Rqm-xs-LWe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zss-lo-AeJ">
@@ -138,7 +137,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="YouthLine"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="biB-8V-gZd"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="6ZJ-gz-FTU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JL8-yn-hny">
@@ -146,7 +145,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Veterans"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="m4H-V5-s1G"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="9eb-hI-OXf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOZ-yk-nbL">
@@ -154,7 +153,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Child Abuse"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="Voi-oC-XvL"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="3ua-7y-FoX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Q3-hl-FFt">
@@ -162,7 +161,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Domestic Abuse"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="URe-xu-TOA"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="BCs-vP-39o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtg-NW-mfB">
@@ -170,7 +169,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Rape"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="7be-eJ-pUR"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="vcq-on-th9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVz-pP-Zfe">
@@ -178,7 +177,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Eating Disorder"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="aYd-Lr-CeI"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="FYy-z5-7co"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBd-WO-7uG">
@@ -186,7 +185,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Runaway"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="Imo-6Y-q5C"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="gsO-Fm-Siz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="io2-Ok-orf">
@@ -194,7 +193,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Poison Control"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="6m3-JD-4Kd"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="gzu-XC-1Al"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpz-PR-OMr">
@@ -202,7 +201,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="HopeLine"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="HCa-ga-Uff"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="UUN-Ti-KIa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eo-Wd-alZ">
@@ -210,7 +209,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="LGBTQ+"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="SmQ-Fd-o5L"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="4uB-Be-CTE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w55-ZZ-J4s">
@@ -218,7 +217,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Drugs/Alcohol"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="G9d-KE-wXf"/>
+                                    <action selector="showMessageWithSender:" destination="30b-AR-AjL" eventType="touchUpInside" id="abJ-HW-tds"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -227,62 +226,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="Wab-Cj-Lhi"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ALJ-k3-mbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="118.52678571428571"/>
-        </scene>
-        <!--Care To Do-->
-        <scene sceneID="6Ev-F2-cDB">
-            <objects>
-                <tableViewController id="w4c-iR-gEY" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zKd-Y3-2bY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.92467224599999998" green="0.86107200380000004" blue="0.99098402259999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.92467224599999998" green="0.86107200380000004" blue="0.99098402259999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bmd-UP-AoC">
-                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bmd-UP-AoC" id="5Rj-7u-b1c">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.92467224599999998" green="0.86107200380000004" blue="0.99098402259999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="w4c-iR-gEY" id="qbf-SC-aD9"/>
-                            <outlet property="delegate" destination="w4c-iR-gEY" id="WJ8-dO-tAv"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Care To Do" id="7hN-45-BsP">
-                        <leftBarButtonItems>
-                            <barButtonItem title="🏠" id="2Nm-jD-uVA">
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="VqJ-el-adV"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="📞" id="Tzm-gl-IcQ">
-                                <connections>
-                                    <segue destination="30b-AR-AjL" kind="show" id="2mA-ty-bZk"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="⭐️" id="Lew-fd-S7l">
-                                <connections>
-                                    <segue destination="kXx-e2-1we" kind="show" id="Tqv-TI-yRF"/>
-                                </connections>
-                            </barButtonItem>
-                        </leftBarButtonItems>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="AOy-ZO-Gmp">
-                            <connections>
-                                <segue destination="bSm-kn-xiQ" kind="show" id="LzN-RA-tSG"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wea-Vb-BiQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1059.4202898550725" y="947.54464285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NIb-KG-sxf">
@@ -298,7 +244,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="🏠"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Tdx-5C-WN3"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="WgO-vk-IBs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5K-Pi-eG0">
@@ -307,7 +253,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="📞"/>
                                 <connections>
-                                    <segue destination="30b-AR-AjL" kind="show" id="3Ch-a4-2af"/>
+                                    <segue destination="30b-AR-AjL" kind="show" id="3B5-Ut-go0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvv-so-IHc">
@@ -316,7 +262,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="⭐️"/>
                                 <connections>
-                                    <segue destination="kXx-e2-1we" kind="show" id="ONj-aO-I2O"/>
+                                    <segue destination="kXx-e2-1we" kind="show" id="NZG-Uq-aRs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofi-Ac-Y6e">
@@ -324,9 +270,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="⏰"/>
-                                <connections>
-                                    <segue destination="l79-Ly-wy1" kind="show" id="VuJ-TU-NyL"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92467224597930908" green="0.86107200384140015" blue="0.99098402261734009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -335,12 +278,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ph-Pn-P7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1950.7246376811595" y="958.92857142857133"/>
+            <point key="canvasLocation" x="1116" y="974"/>
         </scene>
-        <!--View Controller-->
+        <!--Care Tips View Controller-->
         <scene sceneID="6xC-Wd-ySs">
             <objects>
-                <viewController id="kXx-e2-1we" sceneMemberID="viewController">
+                <viewController id="kXx-e2-1we" customClass="CareTipsViewController" customModule="DontMindMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UbN-a2-68h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,7 +294,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="📞"/>
                                 <connections>
-                                    <segue destination="30b-AR-AjL" kind="show" id="0h6-u9-xxv"/>
+                                    <segue destination="30b-AR-AjL" kind="show" id="j1e-QY-jll"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rng-Ud-7qB">
@@ -366,7 +309,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="⏰"/>
                                 <connections>
-                                    <segue destination="l79-Ly-wy1" kind="show" id="kHb-RK-z6Y"/>
+                                    <segue destination="bSm-kn-xiQ" kind="show" id="IS3-1s-Xln"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9d-Q1-aVB">
@@ -375,7 +318,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="🏠"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="JSc-Ca-oEl"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bza-N6-FCn"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkw-FB-ghI">
@@ -385,65 +328,101 @@
                                     <navigationItem title="Self Care Ideas" id="CIy-6L-g2s"/>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqW-uF-pNt">
-                                <rect key="frame" x="38" y="146" width="100" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Breathe"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Z9-aN-RpF">
                                 <rect key="frame" x="157" y="146" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Wash"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="fwC-tW-8w4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4t-ge-Rzw">
                                 <rect key="frame" x="275" y="145" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Eat"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="XeD-1C-ArA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRU-7e-XjD">
                                 <rect key="frame" x="38" y="298" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Hydrate"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="nfZ-D1-uFo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqA-OP-NXQ">
                                 <rect key="frame" x="157" y="297" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Talk"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="Zpt-Av-dFa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qan-zz-S5o">
                                 <rect key="frame" x="38" y="469" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Exercise"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="wU1-2k-rvO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oh-pp-9Mm">
                                 <rect key="frame" x="157" y="469" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Adventure"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="AeN-4W-vyo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMc-Fm-d6v">
                                 <rect key="frame" x="275" y="469" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Create"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="qmF-8C-uX3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eww-Wf-93G">
                                 <rect key="frame" x="38" y="627" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Productive"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="Pi4-Hg-Q1C"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2QB-U0-oGt">
                                 <rect key="frame" x="157" y="626" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Communicate"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="1CI-3l-U08"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Wc-PN-yMI">
                                 <rect key="frame" x="275" y="625" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Social Media"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="KnK-md-jDc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPd-gJ-qMI">
                                 <rect key="frame" x="275" y="298" width="100" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sleep"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="2sO-pf-CU7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bV0-Az-elA">
+                                <rect key="frame" x="61" y="172" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Breathe"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="kXx-e2-1we" eventType="touchUpInside" id="B0j-uJ-GE4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92467224597930908" green="0.86107200384140015" blue="0.99098402261734009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -454,29 +433,11 @@
             </objects>
             <point key="canvasLocation" x="2076" y="109"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="94h-qT-bu0">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="l79-Ly-wy1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uoU-LX-bq4">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="w4c-iR-gEY" kind="relationship" relationship="rootViewController" id="MwU-tP-hQT"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tiG-QF-ixY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="149.27536231884059" y="947.54464285714278"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JN5-lB-eEK"/>
-        <segue reference="AN9-MN-Tml"/>
-        <segue reference="0h6-u9-xxv"/>
-        <segue reference="2hs-TX-Iwz"/>
+        <segue reference="NZG-Uq-aRs"/>
+        <segue reference="IS3-1s-Xln"/>
+        <segue reference="3B5-Ut-go0"/>
+        <segue reference="WgO-vk-IBs"/>
     </inferredMetricsTieBreakers>
 </document>

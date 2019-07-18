@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1882EB4122E0D32A000DA36B /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882EB4022E0D32A000DA36B /* LogTableViewController.swift */; };
+		1882EB4322E0D3D3000DA36B /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882EB4222E0D3D3000DA36B /* ToDo.swift */; };
 		188EBE7D22DF9CFA0051D26E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EBE7C22DF9CFA0051D26E /* AppDelegate.swift */; };
 		188EBE7F22DF9CFA0051D26E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EBE7E22DF9CFA0051D26E /* ViewController.swift */; };
 		188EBE8222DF9CFA0051D26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188EBE8022DF9CFA0051D26E /* Main.storyboard */; };
@@ -15,9 +17,12 @@
 		188EBE8A22DF9CFA0051D26E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188EBE8822DF9CFA0051D26E /* LaunchScreen.storyboard */; };
 		188EBE9222DFDD310051D26E /* HotlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EBE9122DFDD310051D26E /* HotlineViewController.swift */; };
 		188EBE9422DFE4330051D26E /* CareTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EBE9322DFE4330051D26E /* CareTipsViewController.swift */; };
+		18FB381D22E107FE003B13E9 /* LTTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB381C22E107FE003B13E9 /* LTTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1882EB4022E0D32A000DA36B /* LogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableViewController.swift; sourceTree = "<group>"; };
+		1882EB4222E0D3D3000DA36B /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		188EBE7922DF9CFA0051D26E /* DontMindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontMindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188EBE7C22DF9CFA0051D26E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		188EBE7E22DF9CFA0051D26E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		188EBE8B22DF9CFA0051D26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188EBE9122DFDD310051D26E /* HotlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotlineViewController.swift; sourceTree = "<group>"; };
 		188EBE9322DFE4330051D26E /* CareTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTipsViewController.swift; sourceTree = "<group>"; };
+		18FB381C22E107FE003B13E9 /* LTTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				188EBE7E22DF9CFA0051D26E /* ViewController.swift */,
 				188EBE9122DFDD310051D26E /* HotlineViewController.swift */,
 				188EBE9322DFE4330051D26E /* CareTipsViewController.swift */,
+				1882EB4022E0D32A000DA36B /* LogTableViewController.swift */,
+				18FB381C22E107FE003B13E9 /* LTTableViewController.swift */,
+				1882EB4222E0D3D3000DA36B /* ToDo.swift */,
 				188EBE8022DF9CFA0051D26E /* Main.storyboard */,
 				188EBE8622DF9CFA0051D26E /* Assets.xcassets */,
 				188EBE8822DF9CFA0051D26E /* LaunchScreen.storyboard */,
@@ -144,9 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1882EB4122E0D32A000DA36B /* LogTableViewController.swift in Sources */,
+				1882EB4322E0D3D3000DA36B /* ToDo.swift in Sources */,
 				188EBE9222DFDD310051D26E /* HotlineViewController.swift in Sources */,
 				188EBE8522DF9CFA0051D26E /* DontMindMe.xcdatamodeld in Sources */,
 				188EBE7F22DF9CFA0051D26E /* ViewController.swift in Sources */,
+				18FB381D22E107FE003B13E9 /* LTTableViewController.swift in Sources */,
 				188EBE7D22DF9CFA0051D26E /* AppDelegate.swift in Sources */,
 				188EBE9422DFE4330051D26E /* CareTipsViewController.swift in Sources */,
 			);
